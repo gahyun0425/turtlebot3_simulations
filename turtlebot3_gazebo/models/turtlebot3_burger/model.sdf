@@ -373,6 +373,255 @@
       </axis>
     </joint>
 
+    <joint name="joint_base1" type="fixed">
+      <parent>base_link</parent>
+      <child>link_base1</child>
+    </joint>
+
+    <link name="link_base1">
+      <pose>-0.1 0.0 0.11 0 0 0</pose>
+
+      <inertial>
+        <mass>0.0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="link_base1_visual">
+        <geometry>
+          <box>
+            <size>0.008 0.06 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+
+      </visual>
+      <collision name="link_base1_collision">
+        <geometry>
+          <box>
+            <size>0.008 0.06 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="joint_base2" type="fixed">
+      <parent>base_link</parent>
+      <child>link_base2</child>
+    </joint>
+
+    <link name="link_base2">
+      <pose>-0.1 0.0 0.045 0 0 0</pose>
+
+      <inertial>
+        <mass>0.0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="link_base2_visual">
+        <geometry>
+          <box>
+            <size>0.008 0.06 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+
+      </visual>
+      <collision name="link_base2_collision">
+        <geometry>
+          <box>
+            <size>0.008 0.06 0.06</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="joint1" type="fixed">
+      <parent>base_link</parent>
+      <child>link1</child>
+    </joint>
+
+    <link name="link1">
+      <pose>-0.1 0.035 0.08 0 0 0</pose>
+
+      <inertial>
+        <mass>0.0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="link1_visual">
+        <geometry>
+          <box>
+            <size>0.01 0.01 0.13</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+
+
+      </visual>
+      <collision name="link1_collision">
+        <geometry>
+          <box>
+            <size>0.01 0.01 0.13</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="joint2" type="fixed">
+      <parent>base_link</parent>
+      <child>link2</child>
+    </joint>
+
+    <link name="link2">
+      <pose>-0.1 -0.035 0.08 0 0 0</pose>
+
+      <inertial>
+        <mass>0.0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="link2_visual">
+        <geometry>
+          <box>
+            <size>0.01 0.01 0.13</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+
+
+      </visual>
+      <collision name="link2_collision">
+        <geometry>
+          <box>
+            <size>0.01 0.01 0.13</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="joint3" type="fixed">
+      <parent>link1</parent>
+      <child>link3</child>
+    </joint>
+
+    <link name="link3">
+      <pose>-0.135 0.035 0.02 0 0 0</pose>
+
+      <inertial>
+        <mass>0.0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="link3_visual">
+        <geometry>
+          <box>
+            <size>0.06 0.01 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+
+
+      </visual>
+      <collision name="link3_collision">
+        <geometry>
+          <box>
+            <size>0.06 0.01 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="joint4" type="fixed">
+      <parent>link2</parent>
+      <child>link4</child>
+    </joint>
+
+    <link name="link4">
+      <pose>-0.135 -0.035 0.02 0 0 0</pose>
+      
+      <inertial>
+        <mass>0.0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="link4_visual">
+        <geometry>
+          <box>
+            <size>0.06 0.01 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+      </visual>
+      <collision name="link4_collision">
+        <geometry>
+          <box>
+            <size>0.06 0.01 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+
     <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
 
       <!-- wheels -->
