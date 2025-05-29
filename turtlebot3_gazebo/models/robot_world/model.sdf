@@ -5,7 +5,7 @@
 
     <!-- 첫 번째 박스 -->
     <link name="link1">
-      <pose>0.125 0.25 0.115 0.0 0.0 0.0</pose>
+      <pose>0.125 0.3 0.115 0.0 0.0 0.0</pose>
       <visual name="visual1">
         <geometry>
           <box>
@@ -23,18 +23,18 @@
     </link>
 
     <link name="link2">
-      <pose>0.235 0.61 0.115 0.0 0.0 0.0</pose>
+      <pose>0.235 0.635 0.115 0.0 0.0 0.0</pose>
       <visual name="visual2">
         <geometry>
           <box>
-            <size>0.03 0.69 0.23</size>
+            <size>0.03 0.665 0.23</size>
           </box>
         </geometry>
       </visual>
       <collision name="collision2">
         <geometry>
           <box>
-            <size>0.03 0.744 0.23</size>
+            <size>0.03 0.665 0.23</size>
           </box>
         </geometry>
       </collision>
@@ -70,7 +70,7 @@
       <collision name="collision4">
         <geometry>
           <box>
-            <size>0.03 1.94 0.23</size>
+            <size>0.03 1.91 0.23</size>
           </box>
         </geometry>
       </collision>
@@ -95,25 +95,25 @@
     </link>
 
     <link name="link6">
-      <pose>0.235 -0.61 0.115 0.0 0.0 0.0</pose>
+      <pose>0.235 -0.635 0.115 0.0 0.0 0.0</pose>
       <visual name="visual2">
         <geometry>
           <box>
-            <size>0.03 0.69 0.23</size>
+            <size>0.03 0.665 0.23</size>
           </box>
         </geometry>
       </visual>
       <collision name="collision2">
         <geometry>
           <box>
-            <size>0.03 0.744 0.23</size>
+            <size>0.03 0.665 0.23</size>
           </box>
         </geometry>
       </collision>
     </link>
 
     <link name="link7">
-      <pose>0.125 -0.25 0.115 0.0 0.0 0.0</pose>
+      <pose>0.125 -0.3 0.115 0.0 0.0 0.0</pose>
       <visual name="visual7">
         <geometry>
           <box>
