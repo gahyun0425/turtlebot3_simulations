@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<sdf version="1.5">
+<sdf version="1.6">
   <model name="box1">
     <static>true</static>
 
@@ -12,6 +12,12 @@
             <size>0.25 0.03 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision1">
         <geometry>
@@ -30,6 +36,12 @@
             <size>0.03 0.665 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision2">
         <geometry>
@@ -48,6 +60,12 @@
             <size>1 0.03 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision3">
         <geometry>
@@ -66,6 +84,12 @@
             <size>0.03 1.91 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision4">
         <geometry>
@@ -84,6 +108,12 @@
             <size>1 0.03 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision3">
         <geometry>
@@ -102,6 +132,12 @@
             <size>0.03 0.665 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision2">
         <geometry>
@@ -120,6 +156,12 @@
             <size>0.25 0.03 0.23</size>
           </box>
         </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
       </visual>
       <collision name="collision7">
         <geometry>
@@ -129,6 +171,87 @@
         </geometry>
       </collision>
     </link>
+
+    <link name="wjddnrud">
+      <pose>0.9 0.9 0.03 3.14 1.57 0</pose>
+
+      <visual name="wjddnrud_visual">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/wjddnrud.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="wjddnrud_collision">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/wjddnrud.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="ghdwlgus">
+      <pose>0.5 0.9 0.03 3.14 1.57 0</pose>
+
+      <visual name="ghdwlgus_visual">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/ghdwlgus.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="ghdwlgus_collision">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/ghdwlgus.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="dmafytn">
+      <pose>0.5 -0.9 0.03 3.14 1.57 0</pose>
+
+      <visual name="dmafytn_visual">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/dmafytn.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="dmafytn_collision">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/dmafytn.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="rhkwk">
+      <pose>0.9 -0.9 0.03 3.14 1.57 0</pose>
+
+      <visual name="rhkwk_visual">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/rhkwk.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="rhkwk_collision">
+        <geometry>
+          <mesh>
+            <uri>model://robot_world/meshes/rhkwk.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
 
   </model>
 </sdf>

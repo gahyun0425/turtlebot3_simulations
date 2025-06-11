@@ -1,0 +1,13 @@
+material MyTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wjddnrud.png
+      }
+    }
+  }
+}
